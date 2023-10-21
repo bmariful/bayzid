@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     /* background-color: aqua; */
+}
+
+.card-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFE0E2;
+}
+.total-card{
+    /* width: 600px;
+    height: 900px; */
+    display: flex;
+    /* justify-content: center; */
+    width: 700px;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-top{
+    width:700px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: aliceblue;
+    padding: 1.5rem;
+
+}
+.card-bottom{
+    display: flex;
+    /* gap:4rem ; */
+    width: 700px;
+    height: 200px;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    background-color:#2EBFA5;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+.bottom-right{
+    background-color:#7DDE92;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 1rem; */
+}
+
+.card-top h1{
+    color: green;
+}
+
+.card-top h2{
+    color:orange;
+    font-size:1.3rem;
+}
+.card-top p{
+    color: gray;
+}
+
+.dollar{
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    /* align-items: flex-start; */
+    padding-right: 3rem;
+}
+
+.dollar h3{
+    font-size:2rem;
+    color: aliceblue;
+}
+.bottom-left h2{
+    font-size:1.3rem;
+    color: aliceblue;
+}
+.dollar h4{
+    padding-top: 0.8rem;
+    color: gray;
+}
+.bottom-left p{
+    color:white;
+}
+
+.btn{
+    /* background-color:; */
+    width: 90%;
+    padding-top: 10px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color:#ceeb3e;
+    border-radius: 10px;
+    color: white;
+}
+
+.bottom-right h2{
+    text-align: left;
+    padding-left:2rem ;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.right-content{
+    /* padding: 2rem; */
+    /* gap: 1rem; */
+    padding-left: 2rem;
+    padding-top: 1rem;
+    line-height:1.2;
+    color: #DFE0E2;
+}
+
+
+
+
